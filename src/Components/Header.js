@@ -4,8 +4,16 @@ import { Link } from 'react-router-dom'
 import logo from "../Images/logo.png"
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
+import { useStateValue } from './StateProvider';
 
 function Header() {
+
+    // const [state, dispatch] = useStateValue();
+
+    const [{ basket }, dispatch] = useStateValue();
+
+    console.log(basket);
+
     return (
         <nav className='header'>
 
@@ -65,7 +73,9 @@ function Header() {
                         <ShoppingBasketIcon />
 
                         {/* number of item in basket */}
-                        <span className='header_optionLineTwo header_optionBasketCount'>0</span>
+                        <span className='header_optionLineTwo header_optionBasketCount'>{basket?.length}</span>
+
+                        {/* basket?.length is a safe navigation operator that is used in JavaScript to avoid an error in case the value of basket is null or undefined */}
 
                     </div>
                 </Link>

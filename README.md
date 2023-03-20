@@ -8,3 +8,6 @@ used reactjs, materialUi ...
 
 HTml+js
 Component
+context api (reducers)
+
+react-currency-format (prefix to rs)
