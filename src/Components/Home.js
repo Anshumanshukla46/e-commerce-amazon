@@ -22,7 +22,7 @@ function Home() {
 
                 <Product
                     id={923127}
-                    title="https://m.media-amazon.com/images/I/61XO4bORHUL._SX679_.jpg"
+                    title="Apple iPhone 13 (128GB) - Starlight 7.00 cm (6.7-inch) Super Retina XDR display featuring Always-On and ProMotion"
                     price={329900}
                     rating={5}
                     image="https://m.media-amazon.com/images/I/61XO4bORHUL._SX679_.jpg"
@@ -44,7 +44,7 @@ function Home() {
                     id={98}
                     title="Global Grabbers Polyresin Sitting Buddha Idol Statue Showpiece for HomeDecor Decoration Gift Gifting Items-ORG_BLK-BS2-(00)"
                     price={399}
-                    rating={4}
+                    rating={5}
                     image="https://m.media-amazon.com/images/I/91FwdCVfcJL._SX679_.jpg"
                 />
 
@@ -52,7 +52,7 @@ function Home() {
                     id={1}
                     title="Apple Magic Keyboard with Touch ID and Numeric Keypad US English - Silver ((for Mac Silicon Running macOS 11.4 or Later)"
                     price={17500}
-                    rating={2}
+                    rating={5}
                     image="https://m.media-amazon.com/images/I/71Yw0WfNfML._SX679_.jpg"
                 />
             </div>
@@ -61,10 +61,10 @@ function Home() {
                 {/* product : id, title, price, rating, image */}
                 <Product
                     id={2}
-                    title="Apple Thunderbolt 27-inch Monitor"
-                    price={32182}
-                    rating={1}
-                    image="https://m.media-amazon.com/images/I/61fWqr2ZqTL._SX679_.jpg"
+                    title="Customise your Blue 24-inch iMac with Apple M1 chip Customise your Blue 24‑inch iMac with Apple M1 chip"
+                    price={119500}
+                    rating={5}
+                    image="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/imac-24-blue-cto-hero-202104?wid=1254&hei=1132&fmt=jpeg&qlt=90&.v=1617479508000"
                 />
 
             </div>
