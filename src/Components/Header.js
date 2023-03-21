@@ -6,14 +6,20 @@ import logo from "../Images/logo.png"
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { useStateValue } from './StateProvider';
+import { auth } from './firebase';
 
 function Header() {
 
     // const [state, dispatch] = useStateValue();
 
-    const [{ basket }, dispatch] = useStateValue();
+    const [{ basket, user }, dispatch] = useStateValue();
 
-    console.log(basket);
+
+    function handleAuthentication() {
+        if (user)
+            auth.signOut()
+    }
+
 
     return (
         <nav className='header'>
@@ -35,12 +41,17 @@ function Header() {
             <div className="header_nav">
                 {/* href will refresh the page but this link will not refresh the PAGE : SPA(SINGLE  APPLICATION) */}
 
-                <Link to="/login" className='header_link'>
+                {/* no user then only re-direct to login page */}
+                <Link to={!user && '/login'}
+                    className='header_link'>
 
-                    <div className="header_option">
+
+                    <div
+                        onClick={handleAuthentication}
+                        className="header_option">
 
                         <span className='header_optionLineOne'>Hello Guest</span>
-                        <span className='header_optionLineTwo'>Sign In</span>
+                        <span className='header_optionLineTwo'>{user ? 'Sign In' : 'Sign out'}</span>
 
                     </div>
 

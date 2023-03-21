@@ -26,6 +26,7 @@ function reducer(state, action) {
                 ...state, // previous
                 basket: [...state.basket, action.item]
             }
+
         case "REMOVE_FROM_BASKET":
             // logic to add items   
 
@@ -43,10 +44,12 @@ function reducer(state, action) {
             }
 
             return { ...state, basket: newBasket }
-            break;
 
-        // case "SER_USER":
-        //     return {}
+        case "SER_USER":
+            return {
+                ...state,
+                basket: newBasket
+            }
 
 
         default:

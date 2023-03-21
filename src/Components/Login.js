@@ -46,7 +46,7 @@ function Login() {
         createUserWithEmailAndPassword(auth, email, password)
             .then((userAuth) => {
 
-                console.warn("AUTH", userAuth);
+                // console.warn("AUTH", userAuth);
 
 
                 if (userAuth) {
