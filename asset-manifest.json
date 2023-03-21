@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/e-commerce-amazon/static/css/main.d08d3296.css",
+    "main.js": "/e-commerce-amazon/static/js/main.d7d6cd6f.js",
+    "static/js/787.60fcc5a7.chunk.js": "/e-commerce-amazon/static/js/787.60fcc5a7.chunk.js",
+    "static/media/logo.png": "/e-commerce-amazon/static/media/logo.e06bd80ae5f85203ce28.png",
+    "static/media/banner.png": "/e-commerce-amazon/static/media/banner.37e38a1c83060cf8ec40.png",
+    "index.html": "/e-commerce-amazon/index.html",
+    "main.d08d3296.css.map": "/e-commerce-amazon/static/css/main.d08d3296.css.map",
+    "main.d7d6cd6f.js.map": "/e-commerce-amazon/static/js/main.d7d6cd6f.js.map",
+    "787.60fcc5a7.chunk.js.map": "/e-commerce-amazon/static/js/787.60fcc5a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d08d3296.css",
+    "static/js/main.d7d6cd6f.js"
+  ]
+}
