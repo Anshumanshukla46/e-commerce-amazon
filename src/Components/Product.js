@@ -29,7 +29,7 @@ function Product({ id, title, price, rating, image }) {
                 <p>{title}</p>
 
                 <p className="product_price">
-                    <small>Rs. </small>
+                    <small>₹ </small>
                     <strong>{price}</strong>
                 </p>
 

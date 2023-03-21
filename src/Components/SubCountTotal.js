@@ -17,18 +17,17 @@ function SubCountTotal() {
                 value={getBasketTotal(basket)}
                 displayType={"text"}
                 thousandSeparator={true}
-                prefix={"$"}
-
+                prefix={"₹"}
 
                 renderText={(value) => (
                     <>
-                        <p>Subtotal ({basket.length} items): <strong>MISSING {`${value}`}</strong> </p>
+                        <p>Subtotal ({basket.length} items): <strong>{`${value}`}</strong> </p>
 
 
                         <small className='subtotal_gift'>
 
                             <input type="checkbox" />
-                            This order contains a gift
+                            This order contains a gift card.
                         </small>
                     </>
                 )}
