@@ -1,7 +1,8 @@
 # Amazon clone project
 we built a web application that emulates the basic functionalities of the Amazon website, including browsing, adding and removing items from a shopping cart, and checking out. To achieve this, we used various tools and technologies such as `React, React Context API (with reducers), MaterialUI, and react-currency-format.`
 
-As ## `React` is a JavaScript library that allows us to build reusable and scalable UI components, making the development process faster and more efficient. We used React in this project to create the main components of our web application, such as the product listing, shopping cart, and checkout pages.
+## `React` 
+React is a JavaScript library that allows us to build reusable and scalable UI components, making the development process faster and more efficient. We used React in this project to create the main components of our web application, such as the product listing, shopping cart, and checkout pages.
 
 ## `React Context API`
 It is a state management tool that provides a way to pass data through the component tree without having to pass props down manually at every level. We used Context API in conjunction with reducers to manage the application state, including the shopping cart items and user information.
