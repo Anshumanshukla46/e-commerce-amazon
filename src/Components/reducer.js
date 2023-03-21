@@ -45,6 +45,10 @@ function reducer(state, action) {
             return { ...state, basket: newBasket }
             break;
 
+        // case "SER_USER":
+        //     return {}
+
+
         default:
             return state;
     }
